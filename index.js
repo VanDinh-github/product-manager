@@ -4,6 +4,9 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT;
 
+const database = require('./config/database.js')
+
+database.connect();
 //- Set Pug as the view engine
 app.set('view engine', 'pug');
 app.set('views', './views');
