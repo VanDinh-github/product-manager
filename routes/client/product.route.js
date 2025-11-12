@@ -6,5 +6,4 @@ const controller = require('../../controllers/client/product.controller')
 //- Products route
 router.get('/', controller.index )
 
-
 module.exports = router;

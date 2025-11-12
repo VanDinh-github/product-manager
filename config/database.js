@@ -1,3 +1,5 @@
+
+/* Connect database */
 const mongoose = require('mongoose');
 
 module.exports.connect = async () => {
